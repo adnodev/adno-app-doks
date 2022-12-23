@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-9">
+    <h1 class="text-center">{{ .Title }}</h1>
+    <p class="text-center">{{ .Description }}</p>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-lg-4 g-lg-5">
+  {{ range .Data.Pages }}
+  <div class="col">
+    <div class="card">
+      <img
+        class="card-img-top img-fluid lazyload blur-up"
+        src="{{ .Page.RelPermalink}}{{ .Params.thumbnail }}"
+        date-src="{{ .Page.RelPermalink}}{{ .Params.thumbnail }}"
+        alt="{{ .Title }}">
+      <div class="card-body">
+        <h3 class="card-title">{{ .Params.title }}</h3>
+       <p>{{ .Params.description | safeHTML }}</p>
+       <a 
+         href="{{ .Site.Params.appURL }}?url={{ .Params.link }}&title={{ .Params.title }}" 
+         class="btn btn-primary"
+       >{{ i18n "read-write" }}</a>
+      </div>
+    </div>
+  </div>
+  {{ end -}}
+</div>
+{{ end }}

@@ -1,0 +1,18 @@
+[en]
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 10
+  [en.params]
+    languageISO = "EN"
+    languageTag = "en-US"
+
+[fr]
+  languageName = "French"
+  contentDir = "content/fr"
+  weight = 12
+  [fr.params]
+    languageISO = "FR"
+    languageTag = "fr-FR"
+    title = "Adno"
+    titleAddition = "Projet Adno"
+    footer = "Propulsé par <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, en <a href=\"https://getdoks.org/\">Doks</a>"

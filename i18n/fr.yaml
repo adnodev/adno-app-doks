@@ -1,0 +1,20 @@
+- id: get-started
+  translation: "Pour commencer"
+
+- id: on-this-page
+  translation: "Dans cette page"
+
+- id: search-text
+  translation: "Recherche ..."
+
+- id: 404-title
+  translation: "Page absente :("
+
+- id: 404-text
+  translation: "Cette page n'existe pas ou a été déplancée."
+
+- id: browse
+  translation: "Parcourir"
+
+- id: read-write 
+  translation: "Voir / éditer"
