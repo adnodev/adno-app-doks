@@ -1,8 +1,10 @@
 ---
 title : "Adno"
-description: "Adno is a web application to visualize, edit and sharing for static and IIIF images."
-lead: "Adno is a web application to visualize, edit and sharing for static and IIIF images."
+description: "Adno is a web application for viewing, editing and sharing narratives and pathways on static images and IIIF images."
+lead: "Adno is a web application for viewing, editing and sharing narratives and pathways on static images and IIIF images."
 started: "Get Started"
+samples: "Examples"
+urlSamples: "example"
 license: "Libre software. Code and support on Github."
 ad1Title: "Annotate images"
 ad1Description: "Select and comment on areas of interest in your images and those of others."

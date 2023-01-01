@@ -1,3 +1,44 @@
+[[Mail]]
+  name = "About"
+  weight = 5
+  identifier = "about"
+  url = "/about/"
+
+[[main]]
+  name = "Docs"
+  url = "/docs/prologue/introduction/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 20
+
+[[main]]
+  name = "Get Started"
+  weight = 30
+  identifier = "get-started"
+  url = "/docs/prologue/introduction/"
+
+[[main]]
+  name = "Quick Start"
+  weight = 40
+  identifier = "quick-start"
+  url = "/docs/prologue/quick-start/"
+  parent = "get-started"
+
+[[main]]
+  name = "Tutorial"
+  weight = 50
+  identifier = "tutorial"
+  url = "https://getdoks.org/tutorial/introduction/"
+  parent = "get-started"
+
+[[main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 55
+
 [[docs]]
   name = "Prologue"
   weight = 10
@@ -27,42 +68,6 @@
   weight = 10
   identifier = "lorem"
   url = "/tutorial/lorem/"
-
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
-
-[[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 20
-
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
-
-[[main]]
-  name = "Quick Start"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
-
-[[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
 
 [[social]]
   name = "GitHub"

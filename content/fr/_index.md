@@ -1,9 +1,11 @@
 ---
 title : "Adno"
-description: "Description."
-lead: "lead "
-started: "tester"
-license: "Logiciel libre. Code et support sur Github." 
+description: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images statiques et des images IIIF.."
+lead: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images statiques et des images IIIF."
+started: "Essayer Adno !"
+samples: "Exemples"
+urlSamples: "example"
+license: "Logiciel libre. <a href='https://github.com/adnodev/adno'>Code et support sur Github</a>." 
 ad1Title: "Annotez des images"
 ad1Description: "Sélectionnez et commentez des zones d’intérêt sur vos images et celles des autres."
 ad2Title: "Proposez des parcours"
@@ -16,8 +18,8 @@ ad5Title: "Recherche scientifique"
 ad5Description: "Un dispositif de documentation, de discussion et d’échange de données scientifiques"
 ad6Title: "Valorisation du patrimoine"
 ad6Description: "Une façon standardisée de diffuser et de découvrir les données culturelles."
-date: 2020-10-06T08:47:36+00:00
-lastmod: 2020-10-06T08:47:36+00:00
+date: 2022-12-24T08:49:39  
+lastmod: 2022-12-24T08:50:06 
 draft: false
 images: []
 ---

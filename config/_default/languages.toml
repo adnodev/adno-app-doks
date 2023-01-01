@@ -5,6 +5,9 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
+    title = "Adno"
+    titleAddition = "Adno project"
+    footer = "<a href='https://emf.fr'>Espace Mendès France</a>, Poitiers - Nouvelle-Aquitaine (France). <br />This project was supported by the <a href='https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Aides-a-l-innovation-et-a-la-transformation-numerique/Culture-et-innovation-numerique-decouvrez-les-laureats-de-l-appel-a-projets-Services-numeriques-innovants'>French Ministry of Culture</a>."
 
 [fr]
   languageName = "French"
@@ -15,4 +18,4 @@
     languageTag = "fr-FR"
     title = "Adno"
     titleAddition = "Projet Adno"
-    footer = "Propulsé par <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, en <a href=\"https://getdoks.org/\">Doks</a>"
+    footer = "<a href='https://emf.fr'>Espace Mendès France</a>, Poitiers - Nouvelle-Aquitaine (France). <br />Ce projet a été soutenu par le <a href='https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Aides-a-l-innovation-et-a-la-transformation-numerique/Culture-et-innovation-numerique-decouvrez-les-laureats-de-l-appel-a-projets-Services-numeriques-innovants'>ministère de la Culture</a>."

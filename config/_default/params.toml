@@ -1,13 +1,13 @@
 # Meta Data for SEO
 
 ## Adno
-appURL= "https://w.adno.app"
+appURL= "https://w.adno.app/#/search"
 
 ## Homepage
-title = "Doks"
+title = "Adno"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = ""
+description = "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images statiques et des images IIIF."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -15,32 +15,8 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
-
-## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
-
-## JSON-LD
-# schemaType = "Person"
-schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
-schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
-schemaSection = "blog"
+domainTLD = "adno.app"
+titleHome = "Adno"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
@@ -71,7 +47,7 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Espace Mendès France, Poitiers (France)"
 
 # Alert
 alert = false
@@ -113,5 +89,5 @@ lastMod = false
 
 [menu]
   [menu.section]
-    auto = true
+    auto = true 
     collapsibleSidebar = true

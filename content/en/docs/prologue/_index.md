@@ -1,9 +1,9 @@
 ---
-title : "Prologue"
-description: "Prologue Doks."
-lead: ""
-date: 2020-10-06T08:48:45+00:00
-lastmod: 2020-10-06T08:48:45+00:00
+title : "The essential"
+description: "What you need to know about Adno."
+lead: "What you need to know about Adno."
+date: 2022-12-24T14:05:38
+lastmod: 2022-12-30T20:55:44  
 draft: false
 images: []
 weight: 100

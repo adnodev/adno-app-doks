@@ -1,10 +1,22 @@
 ---
 title: "Contact"
-description: "Drop us an email."
+description: "Contact us."
 date: 2020-08-27T19:25:12+02:00
-lastmod: 2020-08-27T19:25:12+02:00
-draft: true
+lastmod: 2022-12-30T19:16:25 
+draft: false
 images: []
 ---
 
-{{< email user="hello" domain="getdoks.org" >}}
+To contact us, please fill in the form below or send an email to this address: {{< email user="contact" domain="adno.app" >}}.
+
+---
+
+<form method="post" class="contact" action="https://forms.un-static.com/forms/2a3032ce2e770b5a30063c54268e3e8bd37149b7"> 
+	<input type="text" name="name" placeholder="your name" required>
+  	<input type="email" name="email" placeholder="your e-mail" required>
+  	<textarea name="message" placeholder="your message" cols="40" rows="15"></textarea>
+  	<button type="submit" class="btn btn-secondary"><span data-feather='send'></span> Send</button>
+  	<div class="text-center">
+    		<p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Forms</a>)</small></p>
+  	</div>
+</form>
