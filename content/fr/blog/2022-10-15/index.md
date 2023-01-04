@@ -17,4 +17,6 @@ La Commission de co-instruction DRAC - Région Nouvelle-Aquitaine du 4/07/2022 e
 
 Porté par l’Espace Mendès France, centre de culture scientifique, technique et industrielle en Nouvelle-Aquitaine, le projet Mexina est un dispositif expérimental d’accompagnement à la diffusion et à l’appropriation d’images numérisées en haute résolution. Cette plate-forme est constituée de serveurs au standard IIIF, d’une bibliothèque virtuelle agrégeant des ressources locales ou distantes, ainsi qu'une  documentations et un programme de formations, en ligne et in situ, destiné à faire émerger une communauté de compétences au service de la recherche, de l’éducation et de la médiation artistique, culturelle et scientifique.
 
+__Site : [https://mexina.fr](https://mexina.fr)__
+
 Ce projet est complémentaire de Adno car il permet de fournir des images.
