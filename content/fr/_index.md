@@ -18,6 +18,7 @@ ad5Title: "Recherche scientifique"
 ad5Description: "Un dispositif de documentation, de discussion et d’échange de données scientifiques"
 ad6Title: "Valorisation du patrimoine"
 ad6Description: "Une façon standardisée de diffuser et de découvrir les données culturelles."
+imageCaption: "Flammarion, L'Atmosphère : météorologie populaire, 1888, gravure sur bois présente au chapitre «La forme du ciel»"
 date: 2022-12-24T08:49:39  
 lastmod: 2022-12-24T08:50:06 
 draft: false
