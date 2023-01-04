@@ -1,7 +1,7 @@
 ---
 title: "À-propos de Adno"
-description: "Adno est une application web de visualisation, d’édition et de partage pair-à-pair de récits et de parcours sur des images statiques et des images IIIF. Elle intéresse les fonds patrimoniaux, les bibliothèques, la recherche scientifique, les humanités numériques et la médiation culturelle et scientifique."
-lead: "Adno est une application web de visualisation, d’édition et de partage pair-à-pair de récits et de parcours sur des images statiques et des images IIIF. Elle intéresse les fonds patrimoniaux, les bibliothèques, la recherche scientifique, les humanités numériques et la médiation culturelle et scientifique."
+description: "Adno est une application web de visualisation, d’édition et de partage de récits et de parcours sur des images statiques et des images IIIF. Elle s'adresse principalement aux médiateurs culturels et scientifiques ainsi qu'aux enseignants. Elle concerne notamment les fonds patrimoniaux, les archives, les bibliothèques, la recherche scientifique, les humanités numériques, et plus généralement la valorisation de données culturelles et scientifiques."
+lead: "Adno est une application web de visualisation, d’édition et de partage de récits et de parcours sur des images statiques et des images IIIF. Elle s'adresse principalement aux médiateurs culturels et scientifiques ainsi qu'aux enseignants. Elle concerne notamment les fonds patrimoniaux, les archives, les bibliothèques, la recherche scientifique, les humanités numériques, et plus généralement la valorisation de données culturelles et scientifiques."
 date: 2022-12-23T19:08:31
 lastmod: 2022-12-30T21:15:46  
 draft: false
@@ -14,6 +14,10 @@ toc: true
 ---
 
 Porté par l'[Espace Mendès France](https://emf.fr) - Poitiers, en partenariat avec l'[Abbaye de Saint-Savin-sur-Gartempe et la vallée des fresques](https://www.abbaye-saint-savin.fr/), la [Bibliothèque Sainte-Geneviève](https://www.bsg.univ-paris3.fr/iguana/www.main.cls), Paris, la [Cité internationale de la bande dessinée et de l'image](http://www.citebd.org/), Angoulême, les [Musées de Poitiers](https://www.poitiers.fr/c__231_977__accueil_musee_sainte_croix.html), le [Muséum d’histoire naturelle de La Rochelle](https://museum.larochelle.fr/), Adno  a été retenu parmi les seize lauréats de l’édition 2022 de l’appel à projets [Services numériques innovants](https://www.culture.gouv.fr/Presse/Communiques-de-presse/Resultats-de-l-appel-a-projets-Services-numeriques-innovants-2022) porté par le ministère de la Culture.
+
+Adno est développé et soutenu par la [Serli](https://www.serli.com/).
+
+[Dossier de présentation du projet](/fr/blog/pr%C3%A9sentation-du-projet/EspaceMendesFrance_PresentationProjet.pdf) 
 
 ![Logos](bloc-logos.png)
 

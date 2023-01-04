@@ -16,7 +16,7 @@ ad4Title: "Teaching and mediation"
 ad4Description: "A tool for teaching and scientific and cultural mediation."
 ad5Title: "Research"
 ad5Description: "A facility for documentation, discussion and sharing of scientific data."
-ad6Title: "Valorization of the heritage"
+ad6Title: "Valorisation of the heritage"
 ad6Description: "A standardized way to disseminate and discover cultural and heritage data."
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
