@@ -11,7 +11,7 @@
   translation: "Page absente :("
 
 - id: 404-text
-  translation: "Cette page n'existe pas ou a été déplancée."
+  translation: "Cette page n'existe pas ou a été déplacée."
 
 - id: browse
   translation: "Parcourir"
