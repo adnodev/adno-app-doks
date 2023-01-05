@@ -1,7 +1,7 @@
 ---
 title: "Cultures Connectées – PNV 2022 / soutien au projet Mexina - Medium expérimental IIIF en Nouvelle-Aquitaine"
-description: "La Commission de co-instruction DRAC - Région Nouvelle-Aquitaine du 4/07/2022 et la Commission Permanente du Conseil Régional de Nouvelle-Aquitaine du 3/10/2022 ont décidé d'attribuer un financement Cultures Connectées - PNV 2022 pour le projet Mexina - Medium expérimental IIIF en Nouvelle-Aquitaine d'un montant total de 15 000 €."
-excerpt: "La Commission de co-instruction DRAC - Région Nouvelle-Aquitaine du 4/07/2022 et la Commission Permanente du Conseil Régional de Nouvelle-Aquitaine du 3/10/2022 ont décidé d'attribuer un financement Cultures Connectées - PNV 2022 pour le projet Mexina - Medium expérimental IIIF en Nouvelle-Aquitaine d'un montant total de 15 000 €."
+description: "La Commission de co-instruction DRAC - Région Nouvelle-Aquitaine et la Commission Permanente du Conseil Régional de Nouvelle-Aquitaine ont décidé d'attribuer un financement Cultures Connectées - PNV 2022 pour le projet Mexina - Medium expérimental IIIF en Nouvelle-Aquitaine présenté par l'Espace Mendès France."
+excerpt: "La Commission de co-instruction DRAC - Région Nouvelle-Aquitaine et la Commission Permanente du Conseil Régional de Nouvelle-Aquitaine ont décidé d'attribuer un financement Cultures Connectées - PNV 2022 pour le projet Mexina - Medium expérimental IIIF en Nouvelle-Aquitaine présenté par l'Espace Mendès France."
 date: 2022-10-15T09:19:42+01:00
 lastmod: 2022-10-16T09:19:42+01:00
 draft: false 
