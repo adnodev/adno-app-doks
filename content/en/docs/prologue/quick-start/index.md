@@ -52,7 +52,7 @@ https://upload.wikimedia.org/wikipedia/commons/f/f3/Chenille_de_Grand_porte_queu
 
 ### Starting with an IIIF image
 
-If you don't know IIIF, read some information on [iiif.io](https://iiif.io). 
+If you want to learn more, you can check out the [IIIF Online workshop](https://training.iiif.io/iiif-online-workshop/) provided by the [IIIF consortium](https://iiif.o) and led by Glen Robson.
 
 You can use :
 

@@ -53,7 +53,7 @@ https://upload.wikimedia.org/wikipedia/commons/f/f3/Chenille_de_Grand_porte_queu
 
 ### Partir d'une image IIIF
 
-Si vous ne connaissez pas IIIF, consultez cette [page de présentation](https://doc.biblissima.fr/iiif/introduction-iiif/) pour en savoir plus.
+Si vous ne connaissez pas IIIF, consultez cette [page de présentation](https://doc.biblissima.fr/iiif/introduction-iiif/) issue de la [formation à IIIF créé par Régis Robineau](https://doc.biblissima.fr/formation-iiif/) dans le cadre de Biblissima.
 
 Vous pouvez utiliser :
 
