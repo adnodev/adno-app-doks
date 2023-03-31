@@ -20,7 +20,6 @@ Le plus simple pour commencer est d'utiliser [le service en ligne](https://w.adn
 <a href="https://w.adno.app" target="_blank"><button type="button" class="btn btn-primary">Essayer maintenant !</button></a>
 <a href="/example" target="_blank"><button type="button" class="btn btn-success">Exemples</button></a>
 
-
 Comme Adno est un logiciel libre, vous pouvez aussi l'installer pour vous-même et les autres. Les sources et les instructions d'installation sont accessibles sur [Github](https://github.com/adnodev/adno).
 
 {{< alert icon="👉" context="info" >}}
@@ -29,18 +28,27 @@ Adno est en cours de développement, ses fonctionnalités et son interface sont 
 
 ## Débuter un projet 
 
-L'écran d'accueil de Adno, se présente sour la forme d'un simple formulaire. 
+L'écran d'accueil de Adno de partage en trois zones. 
 
-![champ de saisie](url-field.png)
+La première se présente sour la forme d'un simple formulaire, la deuxième, à côté, permet de charger un projet existant, enfin, la troisième, en dessous, liste les projets gardés en mémoire par le navigateur. 
 
-Il permet :
+![Écran d'accueil](home.png)
+
+Il est donc possible :
 
 - **de créer un projet** en entrant l'URL d'une image statique ou d'une image IIIF,
 - **d'importer un projet** en chargeant le fichier d'un projet Adno. 
+- **de récupérer un projet** précédemment créé et mémorisé dans votre navigateur. 
 
-Cet écran affiche la liste des projets créés dans cette session de votre navigateur. 
+![Exemple d'un projet](project.png)
 
-![Écran d'accueil](home.png)
+Pour chaque projet existant dans le navigateur, une série de boutons permet d'accèder aux fonctionnalités suivantes :
+
+- **<i class="fa-solid fa-eye"></i> Prévisualiser** 
+- **<i class="fa-solid fa-pen-to-square"></i> Éditer** 
+- **<i class="fa-solid fa-copy"></i> Dupliquer** 
+- **<i class="fa-solid fa-download"></i> Télécharger** 
+- **<i class="fa-solid fa-trash"></i> Supprimer**  
 
 ### Partir d'une image statique
 
@@ -84,17 +92,46 @@ La même interface vous permet de visualiser et d'éditer un projet.
 
 Fonctions des icônes de l'entête :
 
-- <i class="fa-solid fa-house"></i> retour à la page d'accueil et à la liste des projets, 
-- <i class="fas fa-download"></i> exportation du projet courant, 
-- <i class="fas fa-file"></i> <i class="fas fa-file-edit"></i> respectivement lecture et édition des métadonnées du projet 
-- <i class="fas fa-toggle-off"></i> passage du mode visualisation au mode édition, et inversement.
+- **<i class="fa-solid fa-house"></i>** retour à la page d'accueil et à la liste des projets, 
+- **<i class="fas fa-download"></i>** exportation du projet courant, 
+- **<i class="fas fa-file"></i>** <i class="fas fa-file-edit"></i> respectivement lecture et édition des métadonnées du projet 
+- **<i class="fas fa-toggle-off"></i>** passage du mode visualisation au mode édition, et inversement.
 
 
 ### Interface d'édition
 ![Interface d'édition](editor.png)
 
+Pour créer une nouvelle annotation choisissez une forme d'annotation :
+
+![Boutons d'annotation](annoButtons.png) 
+
+Puis sélectionnez une zone sur l'image en effectuant un cliquer-glisser. L'interface d'édition apparait ensuite pour rédiger l'annotation.
+
+Pour modifier le contenu d'une annotation existante, cliquez dessus. Pour la redimensionner, agisser sur les ronds aux angles.
+
+
+Actions pour gérer chaque annotation depuis la liste des annotations :
+
+- **<i class="fa-solid fa-pen-to-square"></i> Éditer** cette annotation, 
+- **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
+- **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Déplacer** l'annotation dans la liste des annotations,
+- **<i class="fa-solid fa-trash"></i> Supprimer** l'annotation. 
+ 
+
+
 ### Interface de visualisation
 ![Interface de visualisation](viewer.png)
+
+- **<i class="fa-solid fa-play"></i> Lecture automatique** des annotations (voir paramètres), 
+- **<i class="fa-solid fa-magnifying-glass-minus"></i> Retour** au début de la lecture des annotations, 
+- **<i class="fa-solid fa-arrow-left"></i> Annotation précédente**, 
+- **<i class="fa-solid fa-arrow-right"></i> Annotation suivante**, 
+- **<i class="fa-solid fa-expand"></i> Plein écran**, 
+
+Actions pour accèder à chaque annotation depuis la liste des annotations :
+
+- **<small>VOIR</small> <i class="fa-solid fa-circle-plus"></i> Visualiser** le contennu de l'annotation dans une fenêtre modale, 
+- **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
 
 ## Retrouver ses projets 
 

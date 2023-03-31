@@ -70,7 +70,8 @@ Adno est librement utilisable sur adno.app. Les sources comme la documentation s
 
 ## Versions
 
-- beta : Noël 2022
+- beta 1 : 29 mars 2023
+- beta 0 : Noël 2022
 - alpha : octobre 2022
 
 ## Contact
