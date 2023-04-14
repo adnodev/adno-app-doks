@@ -126,7 +126,18 @@ Actions pour gérer chaque annotation depuis la liste des annotations :
 - **<i class="fa-solid fa-magnifying-glass-minus"></i> Retour** au début de la lecture des annotations, 
 - **<i class="fa-solid fa-arrow-left"></i> Annotation précédente**, 
 - **<i class="fa-solid fa-arrow-right"></i> Annotation suivante**, 
-- **<i class="fa-solid fa-expand"></i> Plein écran**, 
+- **<i class="fa-solid fa-expand"></i> Plein écran**,
+
+L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramètres de lecture : 
+
+- délai de passage entre deux annotations (5 secondes par défaut),
+- navigateur d'ensemble, 
+- afficher la barre d'outils en mode plein écran,
+- afficher la barre de navigation pour les annotations,
+- toujours commencer la lecture automatique à la première annotation,
+- activer la rotation de l'image,
+- afficher la barre d'outils.
+
 
 Actions pour accèder à chaque annotation depuis la liste des annotations :
 

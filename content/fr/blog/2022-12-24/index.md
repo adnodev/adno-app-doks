@@ -17,7 +17,7 @@ homepage: false
 
 Elle offre les fonctionnalités de base : 
 
-- vivisualisation fluide des images, zoom profond, 
+- visualisation fluide des images, zoom profond, 
 - sélection multiforme et rédaction des annotations,
 - présentation des annotations,
 - sauvegarde des projets dans le navigateur,
