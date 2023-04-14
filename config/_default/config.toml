@@ -1,6 +1,6 @@
 baseurl = "https://adno.app/"
 canonifyURLs = false 
-disableAliases = true
+disableAliases = false 
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
@@ -9,9 +9,9 @@ paginate = 7
 rssLimit = 10
 
 # Multilingual
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 disableLanguages = ["de", "nl"]
-# defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = true
 
 # add redirects/headers
 [outputs]
