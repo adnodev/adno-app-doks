@@ -28,18 +28,27 @@ Adno is under development, its features and interface are subject to change.
 
 ## Starting a project 
 
-Adno's home page is a simple form.
+The Adno home screen is divided into three areas.
 
-![champ de saisie](url-field.png)
+The first is a simple form, the second, next to it, allows you to load an existing project, and the third, below it, lists the projects stored by the browser.
+
+![home page](home.png)
 
 It allows you to:
 
-- **create a project** (green button) by entering the URL of a static image or an IIIF image,
-- **import a project** (gray button) by loading an Adno project file.
+- **create a project** by entering the URL of a static image or an IIIF image,
+- **import a project** by loading an Adno project file.
+- **retrieve a project** a previously created project stored in your browser.
 
-This home page displays the list of projects created in this session of your browser.
+![project example](project.png)
 
-![Écran d'accueil](home.png)
+For each existing project in the browser, a series of buttons allows access to the following features:
+
+- **<i class="fa-solid fa-eye"></i> Preview**
+- **<i class="fa-solid fa-pen-to-square"></i> Edit**
+- **<i class="fa-solid fa-copy"></i> Duplicate**
+- **<i class="fa-solid fa-download"></i> Download**
+- **<i class="fa-solid fa-trash"></i> Delete**
 
 ### Starting with a static image
 
@@ -91,13 +100,49 @@ Icon options in the header :
 
 ### Editing interface
 
-![Interface d'édition](editor.png)
+![Editor screen](editor.png)
+
+To create a new annotation choose an annotation form:
+
+![Annotation buttons](annoButtons.png)
+
+Then select an area on the image by clicking and dragging. The editing interface appears to write the annotation.
+
+To modify the content of an existing annotation, click on it. To resize it, move on the circles at the corners.
+
+Actions to manage each annotation from the annotation list:
+
+- **<i class="fa-solid fa-pen-to-square"></i> Edit** this annotation,
+- **<i class="fa-solid fa-bullseye"></i> Focus** on the annotation area,
+- **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Move** the annotation into the list of annotations,
+- **<i class="fa-solid fa-trash"></i> Delete** the annotation.
 
 ### Viewing interface
 
-![Interface de visualisation](viewer.png)
+![Visualisation screen](viewer.png)
 
-## Retrouver ses projets 
+- **<i class="fa-solid fa-play"></i> Autoplay** of annotations (see settings), 
+- **<i class="fa-solid fa-magnifying-glass-minus"></i> Back** to the beginning of the annotation 
+- **<i class="fa-solid fa-arrow-left"></i> Previous annotation**,
+- **<i class="fa-solid fa-arrow-right"></i> Next annotation**,
+- **<i class="fa-solid fa-expand"></i> fullscreen**,
+
+L'icone **<i class="fa-solid fa-gear"></i>** allows you to adjust some playback settings :
+
+- delay between two annotations (5 seconds by default),
+- viewport navigator,
+- display the toolbar in full screen mode, 
+- display the navigation bar for annotations, 
+- always start autoplay at the first annotation, 
+- enable image rotation,,
+- display the toolbar.
+
+Actions to access each annotation from the annotation list: 
+
+- **<small>READ MORE</small> <i class="fa-solid fa-circle-plus"></i> View** the annotation content in a modal window, 
+- **<i class="fa-solid fa-bullseye"></i> Focus** on the annotation area,
+
+## Retrieving your projects 
 
 Projects are stored in the local storage of your browser. You will be able to find them by reopening a session on the site from which they were created.
 

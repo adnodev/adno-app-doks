@@ -22,6 +22,7 @@ Principales améliorations :
 - réécriture de l'interface en mode lecture,
 - introduction de paramètres pour le mode lecture,
 - vue globale pour naviguer dans l'image, optionnelle en mode lecture,
+- rotation possible de l'image, cf dans les paramètres (activée aussi en mode édition),
 - interface multilingue, en français et en anglais pour l'heure, mais vous pouvez contribuer et proposer d'autres langues,
 - utilisation du format json standard du [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) pour enregistrer et partager les fichiers Adno.   
 

@@ -30,7 +30,7 @@ Adno est en cours de développement, ses fonctionnalités et son interface sont 
 
 L'écran d'accueil de Adno de partage en trois zones. 
 
-La première se présente sour la forme d'un simple formulaire, la deuxième, à côté, permet de charger un projet existant, enfin, la troisième, en dessous, liste les projets gardés en mémoire par le navigateur. 
+La première se présente sous la forme d'un simple formulaire, la deuxième, à côté, permet de charger un projet existant, enfin, la troisième, en dessous, liste les projets gardés en mémoire par le navigateur. 
 
 ![Écran d'accueil](home.png)
 
