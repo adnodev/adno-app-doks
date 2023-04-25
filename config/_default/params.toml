@@ -1,7 +1,8 @@
 # Meta Data for SEO
 
 ## Adno
-appURL= "https://w.adno.app/#/search"
+BaseURL= "https://w.adno.app/"
+appURL= "{{.Site.BaseURL}}#/search"
 
 ## Homepage
 title = "Adno"
@@ -13,10 +14,14 @@ description = "Adno est une application web permettant de visualiser, d'éditer 
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["/images/adno.png"]
 ogLocale = "en_US"
 domainTLD = "adno.app"
 titleHome = "Adno"
+
+## Twitter Cards
+twitterSite = "@AdnoDev"
+twitterCreator = "@emfpoitiers"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false

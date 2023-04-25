@@ -1,7 +1,7 @@
 ---
 title : "Adno"
-description: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images statiques et des images IIIF.."
-lead: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images statiques et des images IIIF."
+description: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images en ligne, statiques et IIIF."
+lead: "Adno est une application web permettant de visualiser, d'éditer et de partager des récits et des parcours sur des images en ligne, statiques et IIIF."
 started: "Essayer Adno !"
 samples: "Exemples"
 urlSamples: "example"
