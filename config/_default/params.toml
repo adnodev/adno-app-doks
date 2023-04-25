@@ -2,7 +2,7 @@
 
 ## Adno
 BaseURL= "https://w.adno.app/"
-appURL= "{{.Site.BaseURL}}#/search"
+appURL= "https://w.adno.app/#/search"
 
 ## Homepage
 title = "Adno"
