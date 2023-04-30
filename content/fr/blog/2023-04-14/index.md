@@ -2,8 +2,8 @@
 title: "Nouvelle version de Adno"
 description: "Une nouvelle version beta vient de sortir. Elle offre une interface améliorée et de nouvelles fonctionnalité mais toujours en préservant la simplicité et l'accessibilité. "
 excerpt: "Une nouvelle version beta vient de sortir. Elle offre une interface améliorée et de nouvelles fonctionnalité mais toujours en préservant la simplicité et l'accessibilité. "
-date: 2023-14-15T09:19:42+01:00
-lastmod: 2023-14-15T09:19:42+01:00
+date: 2023-04-15T09:19:42+01:00
+lastmod: 2023-04-15T09:19:42+01:00
 draft: false 
 weight: 981
 images: [bsg.jpg]
