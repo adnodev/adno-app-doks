@@ -150,7 +150,23 @@ Projects are stored in the local storage of your browser. You will be able to fi
 In private browsing projects are "forgotten" when you close your session. The same can happen with a restrictive setting of your browser.
 {{< /alert >}}
 
-### Help 
+## Publishing your projects
+
+You can insert your Adno project into your web pages. To do this, you have to put your project file online and insert an `iframe` tag in your page by adjusting the parameters below.
+
+```
+<iframe
+    src="https://r.adno.app/#/embed?url=URL HERE"
+    height="600px"
+    width="100%"
+    allow="fullscreen"
+></iframe>
+
+```
+
+Note that by inserting the URL of an IIIF or non-IIIF image, or an IIIF manifest, you can obtain an IIIF viewer.
+
+## Help 
 
 Check the frequently asked questions and the documentation to learn more (beware! these parts are still incomplete). If you have any problems or suggestions, please [contact us](/contact).
 

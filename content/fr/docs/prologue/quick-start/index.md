@@ -152,7 +152,23 @@ Les projets sont conservés dans votre navigateur. Vous pourrez les retrouver en
 En navigation privée les projets sont "oubliés" à la fermeture de la session. Il peut en être de même avec un paramétrage restrictif de votre navigateur. 
 {{< /alert >}}
 
-### Aide 
+## Publier ses projets
+
+Vous pouvez insérer votre projets Adno dans vos pages web. Pour ce faire, vous devez mettre en ligne le fichier de sauvegarde de votre projet et insérer une balise `iframe` dans votre page en ajustant les paramètres ci-après. 
+
+```
+<iframe 
+    src="https://r.adno.app/#/embed?url=METTRE l'URL ICI" 
+    height="600px" 
+    width="100%"
+    allow="fullscreen"
+></iframe>
+
+```
+
+À noter qu'en insérant l'URL d'une image IIIF ou non, ou d'un manifeste IIIF, vous pouvez disposer d'un visualiseur IIIF facile à installer.
+
+## Aide 
 
 Consultez la foire aux question et la documentation pour en savoir plus (attention ! ces parties sont encore incomplètes). 
 En cas de problème ou de suggestion n'hésitez à [nous contacter](/contact).
