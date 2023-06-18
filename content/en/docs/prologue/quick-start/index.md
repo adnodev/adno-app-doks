@@ -166,6 +166,8 @@ You can insert your Adno project into your web pages. To do this, you have to pu
 
 Note that by inserting the URL of an IIIF or non-IIIF image, or an IIIF manifest, you can obtain an IIIF viewer.
 
+[Adno views tags](https://github.com/adnodev/adno-views-tag) allows you to embed different types of visualization in your web pages.
+
 ## Help 
 
 Check the frequently asked questions and the documentation to learn more (beware! these parts are still incomplete). If you have any problems or suggestions, please [contact us](/contact).

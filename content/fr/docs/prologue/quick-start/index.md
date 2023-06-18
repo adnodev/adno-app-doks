@@ -168,6 +168,8 @@ Vous pouvez insérer votre projets Adno dans vos pages web. Pour ce faire, vous 
 
 À noter qu'en insérant l'URL d'une image IIIF ou non, ou d'un manifeste IIIF, vous pouvez disposer d'un visualiseur IIIF facile à installer.
 
+Il est aussi possible d'utiliser le composant [Adno views tags](https://github.com/adnodev/adno-views-tag) pour disposer de différents types de visualisations (listes, diapos, etc.). 
+
 ## Aide 
 
 Consultez la foire aux question et la documentation pour en savoir plus (attention ! ces parties sont encore incomplètes). 
