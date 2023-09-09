@@ -59,19 +59,28 @@ L'image au format `png` ou `jpg` doit être présente en permanence sur Internet
 https://upload.wikimedia.org/wikipedia/commons/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg
 ```
 
-### Partir d'une image IIIF
+### Partir d'une ressource IIIF
 
 Si vous ne connaissez pas IIIF, consultez cette [page de présentation](https://doc.biblissima.fr/iiif/introduction-iiif/) issue de la [formation à IIIF créé par Régis Robineau](https://doc.biblissima.fr/formation-iiif/) dans le cadre de Biblissima.
 
 Vous pouvez utiliser :
 
-- l'url directe d'une image IIIF, elle se termine par `info.json`
-- l'url d'un document, un manifeste IIIF, cependant actuellement seule la première image est prise en compte. 
+#### Un manifeste IIIF
+
+C'est une URL qui est fournie par le diffuseur du document. Le manifeste décrit le document avec ses métadonnées et les images qu'il contient.
 
 <button class="btn btn-copy"></button>
 ```
-https://free.iiifhosting.com/iiif/1c8d49343676a04fffcd92979c02e9394e48bac96f590fffbadffc9133cd06b9/info.json
+https://api.artic.edu/api/v1/artworks/251131/manifest.json
 ```
+Si il y a plusieurs images, sélectionnez en une.
+
+![Sélection d'une image dans un manifeste](select.png)
+
+
+#### Une image IIIF
+
+Vous utilisez alors l'url directe d'une image IIIF, elle se termine par `info.json`
 
 <button class="btn btn-copy"></button>
 ```
@@ -152,13 +161,19 @@ Les projets sont conservés dans votre navigateur. Vous pourrez les retrouver en
 En navigation privée les projets sont "oubliés" à la fermeture de la session. Il peut en être de même avec un paramétrage restrictif de votre navigateur. 
 {{< /alert >}}
 
-## Publier ses projets
+## Partager ses projets
 
-Vous pouvez insérer votre projets Adno dans vos pages web. Pour ce faire, vous devez mettre en ligne le fichier de sauvegarde de votre projet et insérer une balise `iframe` dans votre page en ajustant les paramètres ci-après. 
+Commencez par télécharger votre projet Adno. Il se présente sous la forme d'un simple fichier texte au [format json](https://json.org/json-fr.html).
+
+Ce fichier est en général très léger. Vous pouvez donc facilement le transmettre par mail. Votre correspondant pourra ainsi le visualiser mais aussi proposer des variantes ou des corrections à votre projet. 
+
+Vous pouvez aussi déposer votre fichier en ligne et diffuser son URL. Pour ce faire, il est possible d'utiliser un site web ou un serveur de fichiers. Le protocole IPFS offre une alternative décentralisée intéressante.    
+
+Dès lors que votre projet Adno est en ligne, il est possible de le rendre visible dans une page web en insérant une balise `iframe` en ajustant les paramètres ci-après. 
 
 ```
 <iframe 
-    src="https://r.adno.app/#/embed?url=METTRE l'URL ICI" 
+    src="https://w.adno.app/#/embed?url=METTRE l'URL ICI" 
     height="600px" 
     width="100%"
     allow="fullscreen"
@@ -166,7 +181,7 @@ Vous pouvez insérer votre projets Adno dans vos pages web. Pour ce faire, vous 
 
 ```
 
-À noter qu'en insérant l'URL d'une image IIIF ou non, ou d'un manifeste IIIF, vous pouvez disposer d'un visualiseur IIIF facile à installer.
+À noter qu'en insérant l'URL d'une image IIIF ou non, ou d'un manifeste IIIF, vous pouvez ainsi disposer d'un visualiseur IIIF facile à installer.
 
 Il est aussi possible d'utiliser le composant [Adno views tags](https://github.com/adnodev/adno-views-tag) pour disposer de différents types de visualisations (listes, diapos, etc.). 
 

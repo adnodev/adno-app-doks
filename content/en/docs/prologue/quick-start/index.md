@@ -26,7 +26,7 @@ As Adno is free software, you can also install it for yourself and others. The s
 Adno is under development, its features and interface are subject to change.
 {{< /alert >}}
 
-## Starting a project 
+## Start a project 
 
 The Adno home screen is divided into three areas.
 
@@ -50,7 +50,7 @@ For each existing project in the browser, a series of buttons allows access to t
 - **<i class="fa-solid fa-download"></i> Download**
 - **<i class="fa-solid fa-trash"></i> Delete**
 
-### Starting with a static image
+### Start with a static image
 
 The image in `png` or `jpg` format must be on the Internet permanently and you must know its address (the URL). Enter this URL in the dedicated field and click on `Create my project`. 
 
@@ -59,26 +59,35 @@ The image in `png` or `jpg` format must be on the Internet permanently and you m
 https://upload.wikimedia.org/wikipedia/commons/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg
 ```
 
-### Starting with an IIIF image
+### Start with an IIIF resource 
 
-If you want to learn more, you can check out the [IIIF Online workshop](https://training.iiif.io/iiif-online-workshop/) provided by the [IIIF consortium](https://iiif.o) and led by Glen Robson.
+If you're not familiar with IIIF or if you want to learn more, you can check out the [IIIF Online workshop](https://training.iiif.io/iiif-online-workshop/) provided by the [IIIF consortium](https://iiif.o) and led by Glen Robson.
 
-You can use :
+You can start with an IIIF manifest or an IIIF image.
 
-- the direct url of an IIIF image, it ends with info.json
-- the url of a document, a IIIF manifest, however currently only the first image is taken into account.
+#### IIIF Manifest
+
+This is a URL provided by the document publisher. The manifest describes the document with its metadata and images.
 
 <button class="btn btn-copy"></button>
 ```
-https://free.iiifhosting.com/iiif/1c8d49343676a04fffcd92979c02e9394e48bac96f590fffbadffc9133cd06b9/info.json
+https://api.artic.edu/api/v1/artworks/251131/manifest.json
 ```
+
+If there are several images, select one.
+
+![Sélection d'une image dans un manifeste](select.png)
+
+#### IIIF Image
+
+You then use the direct url of an IIIF image, ending with `info.json`. 
 
 <button class="btn btn-copy"></button>
 ```
 https://gallica.bnf.fr/iiif/ark:/12148/btv1b8626777x/f13/info.json
 ```
 
-### Starting with an example
+### Start with an example
 
 The [examples page](/en/example/) suggests resources from various domains. 
 
@@ -142,7 +151,7 @@ Actions to access each annotation from the annotation list:
 - **<small>READ MORE</small> <i class="fa-solid fa-circle-plus"></i> View** the annotation content in a modal window, 
 - **<i class="fa-solid fa-bullseye"></i> Focus** on the annotation area,
 
-## Retrieving your projects 
+## Retrieve your projects 
 
 Projects are stored in the local storage of your browser. You will be able to find them by reopening a session on the site from which they were created.
 
@@ -150,13 +159,19 @@ Projects are stored in the local storage of your browser. You will be able to fi
 In private browsing projects are "forgotten" when you close your session. The same can happen with a restrictive setting of your browser.
 {{< /alert >}}
 
-## Publishing your projects
+## Share your projects
 
-You can insert your Adno project into your web pages. To do this, you have to put your project file online and insert an `iframe` tag in your page by adjusting the parameters below.
+Start by downloading your Adno project. It takes the form of a simple text file in [json format](https://json.org).
+
+This file is generally light. So you can easily send it by e-mail. Your correspondent will then be able to visualize it, as well as make variations or corrections.
+
+You can also place your file online and distribute its URL. To do this, you can use a website or file server. The IPFS protocol provides an interesting decentralized alternative.
+
+Once your Adno project is online, you can make it visible on a web page by inserting an `iframe` tag and adjusting the parameters below.
 
 ```
 <iframe
-    src="https://r.adno.app/#/embed?url=URL HERE"
+    src="https://w.adno.app/#/embed?url=URL HERE"
     height="600px"
     width="100%"
     allow="fullscreen"
