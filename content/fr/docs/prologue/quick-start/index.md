@@ -77,7 +77,6 @@ Si il y a plusieurs images, sélectionnez en une.
 
 ![Sélection d'une image dans un manifeste](select.png)
 
-
 #### Une image IIIF
 
 Vous utilisez alors l'url directe d'une image IIIF, elle se termine par `info.json`
@@ -106,8 +105,8 @@ Fonctions des icônes de l'entête :
 - **<i class="fas fa-file"></i>** <i class="fas fa-file-edit"></i> respectivement lecture et édition des métadonnées du projet 
 - **<i class="fas fa-toggle-off"></i>** passage du mode visualisation au mode édition, et inversement.
 
-
 ### Interface d'édition
+
 ![Interface d'édition](editor.png)
 
 Pour créer une nouvelle annotation choisissez une forme d'annotation :
@@ -118,15 +117,12 @@ Puis sélectionnez une zone sur l'image en effectuant un cliquer-glisser. L'inte
 
 Pour modifier le contenu d'une annotation existante, cliquez dessus. Pour la redimensionner, agisser sur les ronds aux angles.
 
-
 Actions pour gérer chaque annotation depuis la liste des annotations :
 
 - **<i class="fa-solid fa-pen-to-square"></i> Éditer** cette annotation, 
 - **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
 - **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Déplacer** l'annotation dans la liste des annotations,
 - **<i class="fa-solid fa-trash"></i> Supprimer** l'annotation. 
- 
-
 
 ### Interface de visualisation
 ![Interface de visualisation](viewer.png)
@@ -136,6 +132,16 @@ Actions pour gérer chaque annotation depuis la liste des annotations :
 - **<i class="fa-solid fa-arrow-left"></i> Annotation précédente**, 
 - **<i class="fa-solid fa-arrow-right"></i> Annotation suivante**, 
 - **<i class="fa-solid fa-expand"></i> Plein écran**,
+
+Des raccourcis clavier facilitent l'accessibilité :
+
+- `p` ou `P` : lance la lecture automatique, 
+- `e` ou `E` : bascule en plein écran ou retour,
+- `s` ou `S` : montre ou pas les délimitations des annotations,
+- `t` ou `T` : montre ou pas les boutons,
+- <code><i class="fa-solid fa-arrow-left"></i></code> et <code><i class="fa-solid fa-arrow-right"></i></code> passer de l'annotation courante à la précédente ou à la suivante.  
+  
+
 
 L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramètres de lecture : 
 

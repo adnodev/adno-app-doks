@@ -29,6 +29,13 @@
   parent = "get-started"
 
 [[main]]
+  name = "FAQ"
+  weight = 50
+  identifier = "faq"
+  url = "/docs/help/faq/"
+  parent = "get-started"
+
+[[main]]
   name = "Contact"
   url = "/contact/"
   weight = 55

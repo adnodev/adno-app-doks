@@ -136,6 +136,14 @@ Actions to manage each annotation from the annotation list:
 - **<i class="fa-solid fa-arrow-right"></i> Next annotation**,
 - **<i class="fa-solid fa-expand"></i> fullscreen**,
 
+Keyboard shortcuts:
+
+- Key `p` or `P` to start the autoplay,
+- Key `e` or `E` to toggle FullScreen,
+- Key `s` or `S` to toggle annotation bounds,
+- Key `t` or `T` to toggle the toolsbar,
+- Key <code><i class="fa-solid fa-arrow-left"></i></code> and <code><i class="fa-solid fa-arrow-right"></i></code> to move from the current annotation to the previous or the next one.
+
 L'icone **<i class="fa-solid fa-gear"></i>** allows you to adjust some playback settings :
 
 - delay between two annotations (5 seconds by default),
