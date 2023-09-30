@@ -47,6 +47,6 @@ L’initiative IIIF (International Image Interoperability Framework) est devenu 
 
 ##  Quoi faire en cas de bug ?
 
-Si vous constatez un dysfonctionnement, n'hésitez pas à le signaler en déposant un ticket (issue) sur Github ou en nous envoyant un message via le [formulaire de contact](/contact).
+Si vous constatez un dysfonctionnement, n'hésitez pas à le signaler en déposant un ticket (issue) sur [Github](https://github.com/adnodev/adno) ou en nous envoyant un message via le [formulaire de contact](/contact).
 
 Si vous avez un solution à un problème constaté ou une amélioration à apporter, alors n'hesitez pas non plus à la faire connaitre par les mêmes canaux. Les contributions sont les bienvenues.

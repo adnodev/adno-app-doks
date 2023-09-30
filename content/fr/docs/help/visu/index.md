@@ -1,16 +1,11 @@
 ---
-title: "Comment visualiser votre projet Adno dans une page web?"
+title: "Visualiser un projet Adno"
 description: "Chaque projet Adno peut-être exporté et partagé sous la forme d'un simple fichier texte qui peut permettre diveres représentations, y compris sans Adno."
-excerpt: "Chaque projet Adno peut-être exporté et partagé sous la forme d'un simple fichier texte qui peut permettre diveres représentations, y compris sans Adno."
+lead: "Chaque projet Adno peut-être exporté et partagé sous la forme d'un simple fichier texte qui peut permettre diveres représentations, y compris sans Adno."
 date: 2023-06-02T09:19:42+01:00
 lastmod: 2023-06-02T09:19:42+01:00
 draft: false 
 weight: 977
-images: [list.jpg]
-categories: ["News"]
-contributors: ["Thierry Pasquier"]
-pinned: false
-homepage: false
 ---
 
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">
@@ -21,7 +16,7 @@ Nativement, Adno permet d'incorporer un projet Adno dans une page web. Il est n�
 
 ```
 <iframe 
-    src="https://r.adno.app/#/embed?url=URL DU PROJET" 
+    src="https://w.adno.app/#/embed?url=URL DU PROJET" 
     height="600px" width="100%"
     allow="fullscreen"
 ></iframe>
@@ -30,7 +25,7 @@ Nativement, Adno permet d'incorporer un projet Adno dans une page web. Il est n�
 Soit : 
 
 <iframe 
-    src="https://r.adno.app/#/embed?url=https://static.emf.fr/adno/embed/annotations.json" 
+    src="https://w.adno.app/#/embed?url=https://static.emf.fr/adno/embed/annotations.json" 
     height="600px" width="100%"
     allow="fullscreen"
 ></iframe>
@@ -90,10 +85,6 @@ data-infos="true"
 data-option-autorun_onload="true"
 data-option-autorun_interval="4"
 ></div>
-
-## Conclusion
-
-Adno joue le jeu de l'interopérabilité et les projets qu'il permet de reéaliser sont facilement réutilisables par d'autres logiciels.  
 
 <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
 <script src="https://static.emf.fr/adno/views/adno-display-tags.js"></script>
