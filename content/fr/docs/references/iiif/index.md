@@ -13,7 +13,7 @@ weight: 200
 toc: true
 ---
 
-L’initiative [IIIF](https://iiif.io/), pour International Image Interoperability Framework, a vue le jour en réponse au constat que la diffusion d’images patrimoniales sur le web était « trop lente, trop coûteuse, trop décousue, trop complexe ». [IIIF](https://iiif.io/) apporte une solution pérenne et élégante à ces difficultés en conciliant interopérabilité, sobriété et accessibilité.
+L’initiative [IIIF](https://iiif.io/), pour International Image Interoperability Framework, a vu le jour en réponse au constat que la diffusion d’images patrimoniales sur le web était « trop lente, trop coûteuse, trop décousue, trop complexe ». [IIIF](https://iiif.io/) apporte une solution pérenne et élégante à ces difficultés en conciliant interopérabilité, sobriété et accessibilité.
 
 Elle a été lancée en 2010 par l'université de Stanford et par plusieurs grandes bibliothèques. Le [Consortium IIIF](https://iiif.io/community/consortium) a été créé en 2015 par onze institutions : la British Library, Artstor, Die Bayerische Staatsbibliothek, La Bibliothèque Nationale de France, Nasjonalbiblioteket (Norvège), Wellcome Trust, et les universités d'Oxford, Stanford, Cornell, Princeton et Yale. Il compte actuellement une soixantaine de membres.
 
