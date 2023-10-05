@@ -50,6 +50,13 @@ Pour en savoir plus et notamment la liste des options associées à chaque mode,
 
 Liste les métadonnées du projet.
 
+```
+<div data-adno="infos"
+data-src="https://static.emf.fr/adno/embed/annotations.json"
+data-title-level="h4"
+></div>
+```
+
 <div data-adno="infos"
 data-src="https://static.emf.fr/adno/embed/annotations.json"
 data-title-level="h4"
@@ -59,6 +66,13 @@ data-title-level="h4"
 
 Visualisation en mode diapo
 
+```
+<div data-adno="slider"
+data-src="https://static.emf.fr/adno/embed/annotations.json"
+data-style="normal"
+></div>
+```
+
 <div data-adno="slider"
 data-src="https://static.emf.fr/adno/embed/annotations.json"
 data-style="normal"
@@ -67,6 +81,15 @@ data-style="normal"
 ### Liste
 
 Liste des images et de leurs annotations en légende
+
+```
+<div data-adno="list"
+data-src="https://static.emf.fr/adno/embed/annotations.json"
+data-image-max-height="400px"
+data-image-max-width="500px"
+data-caption-position="bottom"
+></div>
+```
 
 <div data-adno="list"
 data-src="https://static.emf.fr/adno/embed/annotations.json"
@@ -78,6 +101,15 @@ data-caption-position="bottom"
 ### Annona
 
 Il est aussi possible de faire appel à la superbe bibliothèque [Annona](https://ncsu-libraries.github.io/annona/) qui offre une flopée de possibilités.  
+
+```
+<div data-adno="annona"
+data-src="https://static.emf.fr/adno/embed/annotations.json"
+data-infos="true"
+data-option-autorun_onload="true"
+data-option-autorun_interval="4"
+></div>
+```
 
 <div data-adno="annona"
 data-src="https://static.emf.fr/adno/embed/annotations.json"
