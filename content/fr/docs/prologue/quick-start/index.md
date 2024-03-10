@@ -77,6 +77,8 @@ Si il y a plusieurs images, sélectionnez en une.
 
 ![Sélection d'une image dans un manifeste](select.png)
 
+Vosu avez aussi la possibilité de récupérer l'URL `info.json` de chaque image présente dans le manifeste en utilisant ce [formulaire](fr/blog/comment-extraire-les-images-dun-manifeste).
+
 #### Une image IIIF
 
 Vous utilisez alors l'url directe d'une image IIIF, elle se termine par `info.json`
@@ -141,8 +143,6 @@ Des raccourcis clavier facilitent l'accessibilité :
 - `t` ou `T` : montre ou pas les boutons,
 - <code><i class="fa-solid fa-arrow-left"></i></code> et <code><i class="fa-solid fa-arrow-right"></i></code> passer de l'annotation courante à la précédente ou à la suivante.  
   
-
-
 L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramètres de lecture : 
 
 - délai de passage entre deux annotations (5 secondes par défaut),
