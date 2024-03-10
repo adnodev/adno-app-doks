@@ -13,7 +13,7 @@ pinned: false
 homepage: false
 ---
 
-Gallica est la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires. Elle propose à la consultation en ligne des millions de documents. Ils sont accessibles en IIIF. 
+Gallica est la bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires. Elle propose à la consultation en ligne des millions de documents. Ils sont accessibles en IIIF. Il en est souvent de même des bibliothèques numériques « Gallica marque blanche ». 
 
 Cependant, les URL des manifestes ou des images ne sont pas directement récupérables. Le logo IIIF renvoie à un visualiseur IIIF et il faut accéder au volet d'information pour récupérer le lien utilisable dans Adno.
 
