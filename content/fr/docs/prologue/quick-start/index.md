@@ -77,7 +77,7 @@ Si il y a plusieurs images, sélectionnez en une.
 
 ![Sélection d'une image dans un manifeste](select.png)
 
-Vosu avez aussi la possibilité de récupérer l'URL `info.json` de chaque image présente dans le manifeste en utilisant ce [formulaire](fr/blog/comment-extraire-les-images-dun-manifeste).
+Vosu avez aussi la possibilité de récupérer l'URL `info.json` de chaque image présente dans le manifeste en utilisant ce [formulaire](/fr/blog/comment-extraire-les-images-dun-manifeste).
 
 #### Une image IIIF
 
