@@ -4,7 +4,7 @@ description: "Sur Gallica l'accès aux manifestes et aux images IIIF n'est évid
 excerpt: "Sur Gallica l'accès aux manifestes et aux images IIIF n'est évident et il n'est pas toujours indiqué du côté des bibiothèques Gallica en marque blanche."
 date: 2024-02-19T12:20:42+01:00
 lastmod: 2024-02-19T18:20:42+01:00
-draft: false 
+draft: true 
 weight: 975
 images: [gallica.jpg]
 categories: ["News"]
