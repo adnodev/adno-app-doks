@@ -126,6 +126,8 @@ Actions to manage each annotation from the annotation list:
 - **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Move** the annotation into the list of annotations,
 - **<i class="fa-solid fa-trash"></i> Delete** the annotation.
 
+Each annotation can be associated with one or more keywords. These are entered in the field after the annotation content field. Don't forget to press the `Enter` key after entering each keyword.
+
 ### Viewing interface
 
 ![Visualisation screen](viewer.png)
@@ -146,6 +148,7 @@ Keyboard shortcuts:
 
 L'icone **<i class="fa-solid fa-gear"></i>** allows you to adjust some playback settings :
 
+- select the annotations to be shown according to one or more tags,
 - delay between two annotations (5 seconds by default),
 - viewport navigator,
 - display the toolbar in full screen mode, 

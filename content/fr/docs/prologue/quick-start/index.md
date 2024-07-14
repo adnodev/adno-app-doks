@@ -13,9 +13,9 @@ weight: 110
 toc: true
 ---
 
-## Un service en ligne
+## Une application en ligne
 
-Le plus simple pour commencer est d'utiliser [le service en ligne](https://w.adno.app) du projet. Il est gratuit et ne nécessite pas d'inscription. Vous pouvez aussi partir [d'un exemple](/example).
+Le plus simple pour commencer est d'utiliser [l'application en ligne](https://w.adno.app) du projet. Elle est gratuite et ne nécessite pas d'inscription. Vous pouvez aussi partir [d'un exemple](/example).
 
 <a href="https://w.adno.app" target="_blank"><button type="button" class="btn btn-primary">Essayer maintenant !</button></a>
 <a href="/example" target="_blank"><button type="button" class="btn btn-success">Exemples</button></a>
@@ -126,6 +126,8 @@ Actions pour gérer chaque annotation depuis la liste des annotations :
 - **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Déplacer** l'annotation dans la liste des annotations,
 - **<i class="fa-solid fa-trash"></i> Supprimer** l'annotation. 
 
+Il est possible d'associer un ou plusieurs mots clés à chaque annotation. Ils sont à saisir dans le champs situé après celui du contenu de l'annotation. Ne pas oublier de taper sur la touche `Entrée` après avoir saisi chaque mot clé.   
+
 ### Interface de visualisation
 ![Interface de visualisation](viewer.png)
 
@@ -145,6 +147,7 @@ Des raccourcis clavier facilitent l'accessibilité :
   
 L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramètres de lecture : 
 
+- sélection des annotations à afficher en fonction d'un ou plusieurs mots clés, 
 - délai de passage entre deux annotations (5 secondes par défaut),
 - navigateur d'ensemble, 
 - afficher la barre d'outils en mode plein écran,
@@ -152,7 +155,6 @@ L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramèt
 - toujours commencer la lecture automatique à la première annotation,
 - activer la rotation de l'image,
 - afficher la barre d'outils.
-
 
 Actions pour accèder à chaque annotation depuis la liste des annotations :
 
