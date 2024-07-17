@@ -1,11 +1,11 @@
 ---
-title: "Une table tactile alimentée par Adno"
-description: "Des étudiants de l'université de La Rochelle ont travaillé sur une table tactile alimentée par Adno."
-excerpt: "Des étudiants de l'université de La Rochelle ont travaillé sur une table tactile alimentée par Adno."
-date: 2024-07-11T12:20:42+01:00
-lastmod: 2024-07-11T12:20:42+01:00
+title: "Nouvelle version de Adno"
+description: "Cette version corrige de nombreux bugs, améliore l'ergonomie et offre deux nouveaux modes de visualisation :par mots clés et en parcours libre."
+excerpt: "Cette version corrige de nombreux bugs, améliore l'ergonomie et offre deux nouveaux modes de visualisation :par mots clés et en parcours libre."
+date: 2024-07-14T12:20:42+01:00
+lastmod: 2024-07-14T12:20:42+01:00
 draft: false 
-weight: 920
+weight: 900
 images: [ecran.jpg]
 categories: ["News"]
 contributors: ["Thierry Pasquier"]

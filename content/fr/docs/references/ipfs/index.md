@@ -37,12 +37,11 @@ Des opérateurs proposent des solutions de stockage distribué utilisant IPFS.
 
 Pour un usage basique, ils proposent une offre gratuite et disposent d'interfaces web simples et intuitives. 
 
-| Opérateur | Limites de l'offre gratuite | 
-| -------- | -------- |
-| [Filebase](https://filebase.com/) | 5G et 1000 fichiers | 
-| [NFT.storage](https://nft.storage/) | 32G |
-| [Pinata](https://www.pinata.cloud/) | 1G et 500 fichiers |
-| [Web3.storage](https://web3.storage/) | 1G | 
+| Opérateur | Limites de l'offre gratuite | Note | 
+| -------- | -------- | -------- |
+| [Filebase](https://filebase.com/) | 5G et 1000 fichiers | Possibilité de charger des images et des projets, temps de réponse assez long parfois | 
+| [Pinata](https://www.pinata.cloud/) | 1G et 500 fichiers | Possibilité de charger des images et des projets |
+| [NFT.storage](https://nft.storage/) | 32G | Ne prends en charge que des CID |
 
 ### Disposer de IPFS sur son ordinateur
 
