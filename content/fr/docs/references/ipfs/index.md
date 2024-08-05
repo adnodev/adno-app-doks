@@ -19,7 +19,7 @@ IPFS, le système de fichier interplanétaire, est un protocole _pair à pair_ d
 
 IPFS utilise un système d'adressage décentralisé basé sur le contenu au lieu d'un lien vers un emplacement. Chaque fichier devient accessible via un identifiant unique, son CID.
 
-## Pourquoi utiliser IPFS avec Adno ?
+## Pourquoi utiliser IPFS avec Adno
 
 Pour partager un fichier avec une personne, le plus simple est de lui transmettre en pièce jointe par mail ou via un service comme WeTransfert. D'autant que le fichier d'un projet Adno ne comporte que du texte et reste généralement de petite taille. 
 
@@ -41,8 +41,9 @@ Pour un usage basique, ils proposent une offre gratuite et disposent d'interface
 | -------- | -------- | -------- |
 | [Filebase](https://filebase.com/) | 5G et 1000 fichiers | Possibilité de charger des images et des projets, temps de réponse assez long parfois | 
 | [Pinata](https://www.pinata.cloud/) | 1G et 500 fichiers | Possibilité de charger des images et des projets |
+| [NFT.storage](https://nft.storage/) | 32G | Ne prends en charge que des CID |
 
-### Comment installer IPFS sur son ordinateur ?
+### Disposer de IPFS sur son ordinateur
 
 Pour commencer, le plus simple et le plus rapide consiste à installer le logiciel  [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) compatible Windows, Mac et Linux.
 
