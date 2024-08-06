@@ -18,7 +18,7 @@
         <h3 class="card-title">{{ .Params.title }}</h3>
        <p>{{ .Params.description | safeHTML }}</p>
        <a 
-         href="{{ .Site.Params.appURL }}?url={{ .Params.link }}&title={{ .Params.title }}" 
+         href="{{ .Site.Params.appURL }}?url={{ .Params.link }}" 
          class="btn btn-primary"
 	 target="_blank"
        >{{ i18n "read-write" }} <span class="badge badge-pill badge-info">{{ .Params.type }}</span></a>
