@@ -6,17 +6,23 @@ date: 2024-07-14T12:20:42+01:00
 lastmod: 2024-07-14T12:20:42+01:00
 draft: false 
 weight: 900
-images: [ecran.jpg]
+images: [ecranV202407.jpg]
 categories: ["News"]
 contributors: ["Thierry Pasquier"]
 pinned: false
 homepage: false
 ---
 
+Cette nouvelle version de Adno arrive avec les corrections et améliorations suivantes :
 
-Cyril Faucher et Annick Lassus ont mobilisé des étudiants de l'IUT de La Rochelle pour travailler sur Adno. Ils ont développé __Story Tab__, une interface avec des vues multiples pour table tactile. Ce travail a été réalisé dans le cadre de l'initiative [J’peux pas, j’ai musée !](https://www.jpeuxpasjaimusee.org/) pour le compte des musées de Poitiers. 
+- correction des bugs, merci aux usagers qui en ont signalé et parfois même proposé des correctifs ;
+- toilettage de l’interface pour le rendre plus clair et plus homogène ;
+- amélioration de l’ergonomie pour que Adno soit toujours plus simple et intuitif à utiliser ;
+- ajout d'une aide intégrée (le bouton ?) ;
+- développement de deux nouvelles fonctionnalités : 
+  - visualisation des annotations par mots clés,
+  - le mode lecture libre (encore expérimental).
 
-L'objectif des musées de Poitiers est de présenter sur une table tactile le monumental __Le Siège de Poitiers en 1569__, une peinture réalisée par François Nautré en 1619, pendant sa restauration.  
+Consultez le [mode d’emploi rapide](https://adno.app/fr/docs/prologue/quick-start/) pour commencer. N’hésitez pas à envoyer vos remarques et les problèmes que vous rencontrez via le [formulaire de contact](https://adno.app/fr/contact/).  
 
-
-[Lien vers __Story Tab__ en action](https://adno-alemoing.labs.iut-larochelle.fr/).
+Merci aussi de partager votre expérience d'Adno en prenant quelques minutes pour [compléter ce formulaire](https://base.emf.fr/form/kt51KS76UO4tMiClLzEEUDlOaV8e7BV21ijKqgGp2NM).

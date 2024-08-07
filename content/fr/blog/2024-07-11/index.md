@@ -19,4 +19,4 @@ Cyril Faucher et Annick Lassus ont mobilisé des étudiants de l'IUT de La Roche
 L'objectif des musées de Poitiers est de présenter sur une table tactile le monumental __Le Siège de Poitiers en 1569__, une peinture réalisée par François Nautré en 1619, pendant sa restauration.  
 
 
-[Lien vers __Story Tab__ en action](https://adno-alemoing.labs.iut-larochelle.fr/).
+[Lien vers __Story Tab__ en action](https://data.jpeuxpasjaimusee.org/st/nautre/).
