@@ -5,6 +5,6 @@ link:  https://static.emf.fr/adno/annotations.json
 thumbnail: nautre.jpg
 description: "Set of annotations on the painting by François Nautré, Museums of the city of Poitiers and the Société des Antiquaires de l'Ouest." 
 type: adno
-draft: true 
+draft: false 
 ---
 

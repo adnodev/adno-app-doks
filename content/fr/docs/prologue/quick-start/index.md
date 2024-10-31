@@ -131,11 +131,13 @@ Il est possible d'associer un ou plusieurs mots clés à chaque annotation. Ils 
 ### Interface de visualisation
 ![Interface de visualisation](viewer.png)
 
-- **<i class="fa-solid fa-play"></i> Lecture automatique** des annotations (voir paramètres), 
+- **<i class="fa-solid fa-play"></i>** / **<i class="fa-solid fa-pause"></i> Lecture automatique** / **Pause** 
 - **<i class="fa-solid fa-magnifying-glass-minus"></i> Retour** au début de la lecture des annotations, 
+- **<i class="fa-solid fa-eye"></i>** / **<i class="fa-solid fa-eye-slash"></i> Afficher** / **Masquer** les contours des annotations, 
 - **<i class="fa-solid fa-arrow-left"></i> Annotation précédente**, 
 - **<i class="fa-solid fa-arrow-right"></i> Annotation suivante**, 
 - **<i class="fa-solid fa-expand"></i> Plein écran**,
+- **<i class="fa-solid fa-question"></i> Aide**.
 
 Des raccourcis clavier facilitent l'accessibilité :
 
@@ -147,14 +149,22 @@ Des raccourcis clavier facilitent l'accessibilité :
   
 L'icone **<i class="fa-solid fa-gear"></i>** permet de régler quelques paramètres de lecture : 
 
-- sélection des annotations à afficher en fonction d'un ou plusieurs mots clés, 
-- délai de passage entre deux annotations (5 secondes par défaut),
-- navigateur d'ensemble, 
-- afficher la barre d'outils en mode plein écran,
-- afficher la barre de navigation pour les annotations,
-- toujours commencer la lecture automatique à la première annotation,
-- activer la rotation de l'image,
-- afficher la barre d'outils.
+- Visualisation
+  - navigateur d'ensemble, 
+  - afficher la barre d'outils.
+  - afficher la barre d'outils en mode plein écran,
+  - afficher la barre de navigation pour les annotations.
+- Navigation
+  - délai de passage entre deux annotations (5 secondes par défaut),
+  - toujours commencer la lecture automatique à la première annotation,
+  - afficher les contours des annotations,
+  - afficher une icone à l'intérieur des annotations, 
+  - mode pour le rendu des audio 
+  - activer la rotation de l'image.
+- Annotation
+  - sélection des annotations à afficher en fonction d'un ou plusieurs mots clés, 
+  - épaisseur des annotation,
+  - couleurs des contours des annotations. 
 
 Actions pour accèder à chaque annotation depuis la liste des annotations :
 
