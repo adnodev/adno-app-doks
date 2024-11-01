@@ -13,3 +13,10 @@ weight: 300
 toc: true
 ---
 
+https://www.dropbox.com/
+
+Télécharger une image, un manifeste ou un proje Adno.
+
+Récupérer le lien de partage, juste après l'import du document ou à partir de l'interface. 
+
+Ensuite, dans l'url, changer la valeur du dernier paramètre : remplacer `dl=0` par `dl=1`. Vous pouvez transmettre cette URL et inviter votre correspondant à la copier dans l'interface de Adno. 

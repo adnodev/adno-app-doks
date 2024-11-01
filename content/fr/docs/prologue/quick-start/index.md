@@ -107,27 +107,6 @@ Fonctions des icônes de l'entête :
 - **<i class="fas fa-file"></i>** <i class="fas fa-file-edit"></i> respectivement lecture et édition des métadonnées du projet 
 - **<i class="fas fa-toggle-off"></i>** passage du mode visualisation au mode édition, et inversement.
 
-### Interface d'édition
-
-![Interface d'édition](editor.png)
-
-Pour créer une nouvelle annotation choisissez une forme d'annotation :
-
-![Boutons d'annotation](annoButtons.png) 
-
-Puis sélectionnez une zone sur l'image en effectuant un cliquer-glisser. L'interface d'édition apparait ensuite pour rédiger l'annotation.
-
-Pour modifier le contenu d'une annotation existante, cliquez dessus. Pour la redimensionner, agisser sur les ronds aux angles.
-
-Actions pour gérer chaque annotation depuis la liste des annotations :
-
-- **<i class="fa-solid fa-pen-to-square"></i> Éditer** cette annotation, 
-- **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
-- **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Déplacer** l'annotation dans la liste des annotations,
-- **<i class="fa-solid fa-trash"></i> Supprimer** l'annotation. 
-
-Il est possible d'associer un ou plusieurs mots clés à chaque annotation. Ils sont à saisir dans le champs situé après celui du contenu de l'annotation. Ne pas oublier de taper sur la touche `Entrée` après avoir saisi chaque mot clé.   
-
 ### Interface de visualisation
 ![Interface de visualisation](viewer.png)
 
@@ -171,6 +150,40 @@ Actions pour accèder à chaque annotation depuis la liste des annotations :
 - **<small>VOIR</small> <i class="fa-solid fa-circle-plus"></i> Visualiser** le contennu de l'annotation dans une fenêtre modale, 
 - **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
 
+### Interface d'édition
+
+![Interface d'édition](editor.png)
+
+Pour créer une nouvelle annotation choisissez une forme d'annotation :
+
+![Boutons d'annotation](annoButtons.png) 
+
+Puis sélectionnez une zone sur l'image en effectuant un cliquer-glisser. L'interface d'édition apparait ensuite pour rédiger l'annotation.
+
+Pour modifier le contenu d'une annotation existante, cliquez dessus. Pour la redimensionner, agisser sur les ronds aux angles.
+
+Actions pour gérer chaque annotation depuis la liste des annotations :
+
+- **<i class="fa-solid fa-pen-to-square"></i> Éditer** cette annotation, 
+- **<i class="fa-solid fa-bullseye"></i> Focus** sur la zone de l'annotation,
+- **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Déplacer** l'annotation dans la liste des annotations,
+- **<i class="fa-solid fa-trash"></i> Supprimer** l'annotation. 
+
+### Éditer une annotation
+
+![Interface d'édition](editor_anno.png)
+
+Le contenu d'une annotation est généralement un court texte. Il est cependant possible d'insérer du contenu enrichi et d'associer des mots-clés et un fichier audio à chaque annotation. 
+
+Deux modes d'éditions sont disponibles : 
+
+- [WYSIWYG](https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get) avec des icones (niveaux de titres, italique, gras, liste à puces, lien hypertexte, image),
+- [Markdown](https://fr.wikipedia.org/wiki/Markdown) un système léger de balisage du texte, c'est de cette façon que le contenu des annotations est représenté.   
+
+Le champ suivant permet d'associer un ou plusieurs mots clés à chaque annotation. Ne pas oublier de taper sur la touche `Entrée` après avoir saisi chaque mot clé.   
+
+Les deux champs suivants sont consacrés à une ressources audio, le premier champ reçoit l'URL du fichier audio et le second des informations sur cette ressources (crédit ou autre).
+
 ## Retrouver ses projets 
 
 Les projets sont conservés dans votre navigateur. Vous pourrez les retrouver en rouvrant une session sur le site à partir duquel ils ont été créés. 
@@ -187,7 +200,7 @@ Ce fichier est en général très léger. Vous pouvez donc facilement le transme
 
 Vous pouvez aussi déposer votre fichier en ligne et diffuser son URL. Pour ce faire, il est possible d'utiliser un site web ou un serveur de fichiers. Le protocole IPFS offre une alternative décentralisée intéressante. 
 
-Consultez les pages [Google Drive](/fr/docs/references/gdrive/), [Dropbox](/fr/docs/references/dropbox/) ou [IPFS](/fr/docs/references/ipfs/) du guide de référence de la documentation pour découvrir comment procéder avec ces services pour déposer des images ou des projets Adno.
+Consultez les pages [Google Drive](/fr/docs/references/gdrive/), [Dropbox](/fr/docs/references/dropbox/) ou [IPFS](/fr/docs/references/ipfs/) du guide de référence de la documentation pour découvrir comment procéder avec ces services pour déposer des images, des manifestes IIIF ou des projets Adno.
 
 Dès lors que votre projet Adno est en ligne, il est possible de le rendre visible dans une page web en insérant une balise `iframe` en ajustant les paramètres ci-après. 
 
@@ -205,14 +218,18 @@ Dès lors que votre projet Adno est en ligne, il est possible de le rendre visib
 
 Il est aussi possible d'utiliser le composant [Adno views tags](https://github.com/adnodev/adno-views-tag) pour disposer de différents types de visualisations (listes, diapos, etc.). 
 
-## Difficultés habituelles
+## Difficultés 
 
 Adno est une application en ligne qui utilise des ressources externes en ligne elles aussi. Cette façon de faire peut être soumise à des restrictions qui peuvent impacter le fonctionnemet Adno et de son intégration dans des pages web. 
 
 Les cas les plus fréquents : 
 
 - Il n'est pas possible d'insérer une ressources désignées par une adresse débutant par `http` dans un site sécurisé accessible en `https`. Par exemple, si vous déposez une image sur le service [IIIFHosting](http://iiifhosting.com/), l'URL fournie par défaut est en `http`. Pour l'utiliser dans Adno, n'oubliez pas de changer `http` en `https` au début de l'URL.
-- Les [paramétrages CORS](/fr/docs/references/cors/) sur un serveur tiers pour autoriser ou interdire le transfert de données vers un autre domaine. L'instance officielle de Adno utilise un contournement.
+- Des [paramétrages CORS](/fr/docs/references/cors/) sur un serveur tiers interdisent le transfert de données vers un autre domaine. L'instance officielle de Adno utilise un contournement.
+
+## Installation
+
+Adno est une service disponible librement et gratuitement en ligne. Adno est aussi un logiciel libre, vous pouvez donc l'installer chez vous voire l'adapter à vos besoins. Vous retrouverez toutes les infos sur la [forge logicielle de Adno](https://github.com/adnodev/adno).
  
 ## Aide 
 
