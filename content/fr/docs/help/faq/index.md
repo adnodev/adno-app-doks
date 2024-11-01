@@ -37,7 +37,6 @@ Oui, car les ressources, notamment IIIF, ne sont disponibles qu’en ligne.
 
 L’initiative IIIF (International Image Interoperability Framework) est devenu le cadre technique commun et standardisé de diffusion des images de haute qualité et de leurs métadonnées. Pour en savoir plus, consultez le site officiel de l’[initiative IIIF](https://iiif.io/) (en anglais)  ou [cette page](https://doc.biblissima.fr/iiif/introduction-iiif/) de Biblissima, la référence dans le champ francophone.
 
-
 ## Quels raccourcis pour rechercher dans la documentation ?
 
 - focus: `Ctrl + /`

@@ -183,9 +183,11 @@ En navigation privée les projets sont "oubliés" à la fermeture de la session.
 
 Commencez par télécharger votre projet Adno. Il se présente sous la forme d'un simple fichier texte au [format json](https://json.org/json-fr.html).
 
-Ce fichier est en général très léger. Vous pouvez donc facilement le transmettre par mail. Votre correspondant pourra ainsi le visualiser mais aussi proposer des variantes ou des corrections à votre projet. 
+Ce fichier est en général très léger. Vous pouvez donc facilement le transmettre par mail. Après l'avoir importé dans Adno, votre correspondant pourra le visualiser mais aussi proposer des variantes ou des corrections à votre projet. 
 
-Vous pouvez aussi déposer votre fichier en ligne et diffuser son URL. Pour ce faire, il est possible d'utiliser un site web ou un serveur de fichiers. Le protocole IPFS offre une alternative décentralisée intéressante.    
+Vous pouvez aussi déposer votre fichier en ligne et diffuser son URL. Pour ce faire, il est possible d'utiliser un site web ou un serveur de fichiers. Le protocole IPFS offre une alternative décentralisée intéressante. 
+
+Consultez les pages [Google Drive](/fr/docs/references/gdrive/), [Dropbox](/fr/docs/references/dropbox/) ou [IPFS](/fr/docs/references/ipfs/) du guide de référence de la documentation pour découvrir comment procéder avec ces services pour déposer des images ou des projets Adno.
 
 Dès lors que votre projet Adno est en ligne, il est possible de le rendre visible dans une page web en insérant une balise `iframe` en ajustant les paramètres ci-après. 
 
@@ -203,6 +205,15 @@ Dès lors que votre projet Adno est en ligne, il est possible de le rendre visib
 
 Il est aussi possible d'utiliser le composant [Adno views tags](https://github.com/adnodev/adno-views-tag) pour disposer de différents types de visualisations (listes, diapos, etc.). 
 
+## Difficultés habituelles
+
+Adno est une application en ligne qui utilise des ressources externes en ligne elles aussi. Cette façon de faire peut être soumise à des restrictions qui peuvent impacter le fonctionnemet Adno et de son intégration dans des pages web. 
+
+Les cas les plus fréquents : 
+
+- Il n'est pas possible d'insérer une ressources désignées par une adresse débutant par `http` dans un site sécurisé accessible en `https`. Par exemple, si vous déposez une image sur le service [IIIFHosting](http://iiifhosting.com/), l'URL fournie par défaut est en `http`. Pour l'utiliser dans Adno, n'oubliez pas de changer `http` en `https` au début de l'URL.
+- Les [paramétrages CORS](/fr/docs/references/cors/) sur un serveur tiers pour autoriser ou interdire le transfert de données vers un autre domaine. L'instance officielle de Adno utilise un contournement.
+ 
 ## Aide 
 
 Consultez la foire aux question et la documentation pour en savoir plus (attention ! ces parties sont encore incomplètes). 
