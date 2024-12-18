@@ -214,6 +214,11 @@ Dès lors que votre projet Adno est en ligne, il est possible de le rendre visib
 
 ```
 
+{{< alert icon="👉" context="info" >}}
+Pour plus de sûreté, il est conseillé d'encoder l'URL passée en paramètre. Adno founit un utilitaire pour ce faire tout en ajustant les paramètres. Il suffit d'ajouter `/#/link` à la suite de l'URL du site. Exemple : [https://w.adno.app/#/link](https://w.adno.app/#/link). 
+{{< /alert >}}
+
+
 À noter qu'en insérant l'URL d'une image IIIF ou non, ou d'un manifeste IIIF, vous pouvez ainsi disposer d'un visualiseur IIIF facile à installer.
 
 Il est aussi possible d'utiliser le composant [Adno views tags](https://github.com/adnodev/adno-views-tag) pour disposer de différents types de visualisations (listes, diapos, etc.). 
