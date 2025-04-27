@@ -1,7 +1,7 @@
 ---
 title: "About Adno"
-description: "Adno is a web application for visualizing, editing and sharing stories and pathways on static images and IIIF images. It is mainly intended for cultural and scientific mediators and teachers. It concerns heritage collections, archives, libraries, scientific research, digital humanities, and more generally the valorisation of cultural and scientific data." 
-lead: "Adno is a web application for visualizing, editing and sharing stories and pathways on static images and IIIF images. It is mainly intended for cultural and scientific mediators and teachers. It concerns heritage collections, archives, libraries, scientific research, digital humanities, and more generally the valorisation of cultural and scientific data." 
+description: "Adno is a web application for visualizing, editing and sharing stories and guided explorationss on static images and IIIF images. It is mainly intended for cultural and scientific mediators and teachers. It concerns heritage collections, archives, libraries, scientific research, digital humanities, and more generally the valorisation of cultural and scientific data." 
+lead: "Adno is a web application for visualizing, editing and sharing stories and guided explorations on static images and IIIF images. It is mainly intended for cultural and scientific mediators and teachers. It concerns heritage collections, archives, libraries, scientific research, digital humanities, and more generally the valorisation of cultural and scientific data." 
 date: 2022-12-23T19:08:31
 lastmod: 2022-12-30T21:15:46  
 draft: false

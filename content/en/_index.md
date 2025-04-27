@@ -1,7 +1,7 @@
 ---
 title : "Adno"
-description: "Adno is a web application for viewing, editing and sharing narratives and journeys on online images, static images and IIIF images."
-lead: "Adno is a web application for viewing, editing and sharing narratives and journeys on online images, static images and IIIF images."
+description: "Adno is a web application for viewing, editing and sharing narratives and guided explorations on online images, static images and IIIF images."
+lead: "Adno is a web application for viewing, editing and sharing narratives and guided explorations on online images, static images and IIIF images."
 started: "Get Started"
 samples: "Examples"
 urlSamples: "example"
@@ -9,7 +9,7 @@ license: "Your experience with Adno matters to us. <br />Please take a moment to
 ad1Title: "Annotate images"
 ad1Description: "Select and comment on areas of interest in your images and those of others."
 ad2Title: "Suggest a tour"
-ad2Description: "Assemble annotations to tell stories or create a journey."
+ad2Description: "Assemble annotations to tell stories or create a guided exploration."
 ad3Title: "Share it!"
 ad3Description: "Distribute your work, export it and import it from others."
 ad4Title: "Teaching and mediation"

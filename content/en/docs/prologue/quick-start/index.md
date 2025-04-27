@@ -3,7 +3,7 @@ title: "Quick Start"
 description: "The essentials in one page to get started with Adno.."
 lead: "The essentials in one page to get started with Adno.."
 date: 2022-11-24T10:45:41   
-lastmod: 2022-12-30T21:17:03  
+lastmod: 2025-04-27T21:17:03  
 draft: false
 images: []
 menu:
@@ -36,7 +36,7 @@ The first is a simple form, the second, next to it, allows you to load an existi
 
 It allows you to:
 
-- **create a project** by entering the URL of a static image or an IIIF image,
+- **create a project** by entering the URL of a static image, an IIIF image or manifest, or that of an Adno project,,
 - **import a project** by loading an Adno project file.
 - **retrieve a project** a previously created project stored in your browser.
 
@@ -97,19 +97,73 @@ Use the Import a project button (`Importer un projet`) to upload a previously do
 
 ## View and edit your project 
 
-The same interface allows you to view and edit a project.
+The same interface lets you alternately and simply **view** and **edit** a project by clicking on the colored edit or playback button at the top right of the interface.
 
-Icon options in the header :
+### Viewing interface
 
-- <i class="fa-solid fa-house"></i> return to the home page and to the list of projects, 
-- <i class="fas fa-download"></i> export the current project, 
-- <i class="fas fa-file"></i> <i class="fas fa-file-edit"></i> respectively reading and editing of the project metadata, 
-- <i class="fas fa-toggle-off"></i> switch from view mode to edit mode, and vice versa.
+![Visualisation screen](viewer.png)
+The navigation bar contains, on the left, Adno to return to the dashboard and project information, and, on the right, a button to switch from play mode to edit mode, as well as three buttons:
 
+- **<i class="fa-solid fa-download"></i>** project export,,
+- **<i class="fa-solid fa-file"></i>** displays all the project metadata,
+- **<i class="fa-solid fa-gear"></i>** set viewer settings:
+  - View
+    - overall viewer,
+    - display the toolbar.
+    - display the toolbar in full screen mode,
+    - display the navigation bar for annotations.
+  - Navigation
+    - delay between two annotations (default 5 seconds),
+    - always start autoplay at the first annotation,
+    - display annotation outlines,
+    - display an icon inside the annotations,
+    - audio rendering mode
+    - activate image rotation.
+  - Annotation
+    - select the annotations to display based on one or more keywords,
+    - annotation thickness,
+    - annotation outline colours.
+
+The image is placed in the rest of the screen, with the list of annotations to the left of the image and a number of icons above it.
+
+- **<i class="fa-solid fa-play"></i> Autoplay** of annotations (see settings), 
+- **<i class="fa-solid fa-magnifying-glass-minus"></i> Back** to the beginning of the annotation 
+- **<i class="fa-solid fa-eye"></i>** / **<i class="fa-solid fa-eye-slash"></i> Show** / **Hide** annotation outlines,
+- **<i class="fa-solid fa-arrow-left"></i> Previous annotation**,
+- **<i class="fa-solid fa-arrow-right"></i> Next annotation**,
+- **<i class="fa-solid fa-expand"></i> fullscreen**,
+- **<i class="fa-solid fa-circle-info"></i> Information**,
+- **<i class="fa-solid fa-question"></i> Help**.
+
+Actions to access each annotation from the annotation list: 
+
+- **<small>READ MORE</small> <i class="fa-solid fa-circle-plus"></i> View** the annotation content in a modal window, 
+- **<i class="fa-solid fa-bullseye"></i> Focus** on the annotation area,
+
+#### Full screen view
+
+In full-screen view, only the current annotation is visible. You can set whether or not icons are displayed.
+
+![Full screen view](fullscreen.png)
+
+#### Keyboard shortcuts
+
+- Key `p` or `P` to start the autoplay,
+- Key `e` or `E` to toggle FullScreen,
+- Key `s` or `S` to toggle annotation bounds,
+- Key `t` or `T` to toggle the toolsbar,
+- Key <code><i class="fa-solid fa-arrow-left"></i></code> and <code><i class="fa-solid fa-arrow-right"></i></code> to move from the current annotation to the previous or the next one.
 
 ### Editing interface
 
 ![Editor screen](editor.png)
+
+The navigation bar contains project information on the left, buttons for undoing or redoing last actions in the centre, and a button for switching from edit mode to playback mode on the right, as well as a button for saving the project and another for editing project information.
+
+- **<i class="fa-solid fa-reply "></i>** cancel the last action,
+- **<i class="fa-solid fa-share"></i>** restore the cancelled action,
+- **<i class="fa-solid fa-download"></i>** export project,
+- **<i class="fa-solid fa-file"></i>** edit project metadata.
 
 To create a new annotation choose an annotation form:
 
@@ -126,41 +180,36 @@ Actions to manage each annotation from the annotation list:
 - **<i class="fa-solid fa-up-long"></i> <i class="fa-solid fa-down-long"></i> Move** the annotation into the list of annotations,
 - **<i class="fa-solid fa-trash"></i> Delete** the annotation.
 
-Each annotation can be associated with one or more keywords. These are entered in the field after the annotation content field. Don't forget to press the `Enter` key after entering each keyword.
+#### Edit an annotation
 
-### Viewing interface
+![annotation editor](editor_anno.png)
 
-![Visualisation screen](viewer.png)
+This modal window has three tabs:
 
-- **<i class="fa-solid fa-play"></i> Autoplay** of annotations (see settings), 
-- **<i class="fa-solid fa-magnifying-glass-minus"></i> Back** to the beginning of the annotation 
-- **<i class="fa-solid fa-arrow-left"></i> Previous annotation**,
-- **<i class="fa-solid fa-arrow-right"></i> Next annotation**,
-- **<i class="fa-solid fa-expand"></i> fullscreen**,
+- **Editor** for editing the annotation,
+- **Tags** to associate keywords with the annotation,
+- **Audio** to associate an audio resource with the annotation.
 
-Keyboard shortcuts:
+##### Editor interface (default)
 
-- Key `p` or `P` to start the autoplay,
-- Key `e` or `E` to toggle FullScreen,
-- Key `s` or `S` to toggle annotation bounds,
-- Key `t` or `T` to toggle the toolsbar,
-- Key <code><i class="fa-solid fa-arrow-left"></i></code> and <code><i class="fa-solid fa-arrow-right"></i></code> to move from the current annotation to the previous or the next one.
+The content of an annotation is generally a short text. However, it is possible to insert enriched content.
 
-L'icone **<i class="fa-solid fa-gear"></i>** allows you to adjust some playback settings :
+Two editing modes are available:
 
-- select the annotations to be shown according to one or more tags,
-- delay between two annotations (5 seconds by default),
-- viewport navigator,
-- display the toolbar in full screen mode, 
-- display the navigation bar for annotations, 
-- always start autoplay at the first annotation, 
-- enable image rotation,,
-- display the toolbar.
+- [WYSIWYG](https://en.wikipedia.org/wiki/What_you_see_is_what_you_get) with icons (title levels, italics, bold, bulleted list, hypertext link, image),
+- [Markdown](https://en.wikipedia.org/wiki/Markdown) a lightweight text mark-up system, which is how annotation content is represented.
 
-Actions to access each annotation from the annotation list: 
+##### Tags management
 
-- **<small>READ MORE</small> <i class="fa-solid fa-circle-plus"></i> View** the annotation content in a modal window, 
-- **<i class="fa-solid fa-bullseye"></i> Focus** on the annotation area,
+This tab allows you to associate one or more keywords with each annotation. You can select an existing keyword or create a new one. Remember to press the Enter key after entering each keyword.
+
+In the playback settings, it is then possible to view routes by keyword.
+
+##### Associating audio
+
+This tab allows you to associate an audio resource with the annotation. The first field contains the URL of the audio file and the second contains information about the resource (credit or other).
+
+In the playback parameters, specify how the audio is played, individually or in spatialized sound.
 
 ## Retrieve your projects 
 
@@ -171,6 +220,8 @@ In private browsing projects are "forgotten" when you close your session. The sa
 {{< /alert >}}
 
 ## Share your projects
+
+The button **<i class="fas fa-download"></i>**, which appears in various places in the Adno interface, provides this modal window showing how to save and share a project, by exporting it in the format of an Adno file or an IIIF manifest.
 
 Start by downloading your Adno project. It takes the form of a simple text file in [json format](https://json.org).
 
